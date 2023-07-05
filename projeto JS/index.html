@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevClub - Convert Money</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <img class="logo" src="./assets/coindollarfree.png" alt="logo" />
+  <main>
+    <label>
+      Convert <b>de</b>
+      <select>
+        <option value="">R$ Real Brasileiro</option>
+      </select>
+    </label>
+    <label>Convert<b>de</b>
+      <select class="currency-Select" >
+        <option value="dolar">US$ Dólar americano</option>
+        <option value="euro">€ Euro</option>
+        <option value="japaneseyen">¥ Japanese Yen</option>
+        <option value="australiandollar"> A$ Dólar Australiano</option>
+      </select>
+    </label>
+    <label>Valor
+      <input class="input-currency" placeholder="R$10.000,00">
+    </label>
+    <button class="convert-button">Converter</button>
+    <section>
+      <div class="currency-box">
+        <img  src="assets/real.png" alt="logo-moeda-a-converter">
+        <p class="currency">Real</p>
+        <p class="currency-value-to-convert">R$ 0,00</p>
+      </div>
+      <img class="arrow-img" src="assets/setaverde2.png" alt="seta">
+      <div class="currency-box">
+        <img  class="currency-img" src="assets/dolar.png" alt="logo-moeda-convertida">
+        <p class="currency"  id="currency-name">Dólar americano</p>
+        <p class="currency-value">US$ 0.0</p>
+      </div>
+    </section>
+  </main>
+</body>
+<script   src="./javascript.js"></script>
+
+</html>
